@@ -1,0 +1,45 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+  "tasks": {
+    "sync-doc": {
+      "name": "sync-doc",
+      "command": "yarn sync-doc",
+      "runAtStart": false
+    },
+    "generate-repos-info": {
+      "name": "generate-repos-info",
+      "command": "yarn generate-repos-info",
+      "runAtStart": false
+    },
+    "update-sitemap": {
+      "name": "update-sitemap",
+      "command": "yarn update-sitemap",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "docusaurus": {
+      "name": "docusaurus",
+      "command": "yarn docusaurus",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    }
+  }
+}
