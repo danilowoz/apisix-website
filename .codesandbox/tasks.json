@@ -1,0 +1,48 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "sync-doc": {
+      "name": "sync-doc",
+      "command": "yarn sync-doc",
+      "runAtStart": false
+    },
+    "generate-repos-info": {
+      "name": "generate-repos-info",
+      "command": "yarn generate-repos-info",
+      "runAtStart": false
+    },
+    "update-sitemap": {
+      "name": "update-sitemap",
+      "command": "yarn update-sitemap",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "docusaurus": {
+      "name": "docusaurus",
+      "command": "yarn docusaurus",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    }
+  }
+}
