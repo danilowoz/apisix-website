@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[60505],{70623:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/message-queue","name":"Message Queue","count":1,"permalink":"/blog/tags/message-queue"}')}}]);

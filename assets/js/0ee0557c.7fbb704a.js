@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[67020],{65932:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/service-discovery","name":"Service Discovery","count":4,"permalink":"/blog/tags/service-discovery"}')}}]);
